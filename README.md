@@ -146,10 +146,10 @@ Random Forest lebih cocok untuk dataset kecil karena robust dan tidak memerlukan
 # 9. 🔁 Reproducibility
 Gunakan environment: Gunakan environment: Python 3.10+
 
-pandas
-numpy
-matplotlib
-scikit-learn
-tensorflow
-warnings
-joblib
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- tensorflow
+- warnings
+- joblib
