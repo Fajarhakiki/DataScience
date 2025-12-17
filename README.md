@@ -1,5 +1,5 @@
 # 📘 Judul Proyek
-*(Isi judul proyek Anda di sini)*
+*Prediksi Harga Mobil Menggunakan Machine Learning dan Deep Learning*
 
 ## 👤 Informasi
 - **Nama:** [Fajar Hakiki]  
@@ -113,21 +113,24 @@ Output Layer: 1 neuron, aktivasi Linear (regression)]
 ---
 
 # 6. 🧪 Evaluation
-**Metrik:** Accuracy / F1 / MAE / MSE (pilih sesuai tugas)
+**Metrik:** RMSE (Root Mean Squared Error): Rata-rata magnitude error dalam dollar.
+            R² Score: Seberapa baik model menjelaskan variance (0-1, higher is better).
+            MAE (Mean Absolute Error): Rata-rata absolute error, robust terhadap outliers.
 
 ### Hasil Singkat
-| Model | Score | Catatan |
-|-------|--------|---------|
-| Baseline | [...] | |
-| Advanced | [...] | |
-| Deep Learning | [...] | |
+| Model | Test RMSE | Test R² | Test MAE | Catatan |
+|-------|--------|---------|---------|---------|
+| Baseline | $2,342.05 |0.578 |$1,857.26 |Performa moderate |
+| Advanced | $1,696.53 |0.779 |$1,186.26 |TERBAIK |
+| Deep Learning | $7,111.02 |-2.888 |$6,633.25 |Overfitting parah |
 
 ---
 
 # 7. 🏁 Kesimpulan
-- Model terbaik: [...]  
-- Alasan: [...]  
-- Insight penting: [...]  
+- Model terbaik: [Random Forest Regressor]  
+- Alasan: [RMSE terendah ($1,696.53) - prediksi paling akurat,R² tertinggi (0.779) - menjelaskan 78% variance harga,Balance antara,akurasi dan generalisasi,Tidak overfitting seperti Deep Learning,Memberikan feature importance untuk business insight] 
+- Insight penting: [Dataset kecil (160 samples) sangat mempengaruhi performa Deep Learning. Model dengan 3,649 parameters terlalu kompleks untuk data ini, menyebabkan severe overfitting.
+Random Forest lebih cocok untuk dataset kecil karena robust dan tidak memerlukan data banyak seperti neural network.]  
 
 ---
 
