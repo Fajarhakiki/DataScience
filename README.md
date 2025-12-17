@@ -2,8 +2,8 @@
 *(Isi judul proyek Anda di sini)*
 
 ## 👤 Informasi
-- **Nama:** [...]  
-- **Repo:** [...]  
+- **Nama:** [Fajar Hakiki]  
+- **Repo:** [https://github.com/Fajarhakiki/DataScience.git]  
 - **Video:** [...]  
 
 ---
