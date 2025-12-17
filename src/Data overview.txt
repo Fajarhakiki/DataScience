@@ -1,0 +1,14 @@
+print("=== DATASET INFO ===")
+print(df.info())
+
+print("\n=== MISSING VALUES ===")
+missing = df.isnull().sum()
+missing_pct = (missing / len(df)) * 100
+missing_df = pd.DataFrame({
+    'Missing Count': missing[missing > 0],
+    'Percentage': missing_pct[missing > 0]
+})
+print(missing_df.sort_values('Percentage', ascending=False))
+
+print("\n=== PRICE STATISTICS ===")
+print(df['price'].describe())
