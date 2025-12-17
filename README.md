@@ -4,7 +4,7 @@
 ## 👤 Informasi
 - **Nama:** [Fajar Hakiki]  
 - **Repo:** [https://github.com/Fajarhakiki/DataScience.git]  
-- **Video:** [...]  
+- **Video:** [https://youtu.be/9d4Lsk1AfWs?si=3VS04vPLm7w3-c9J]  
 
 ---
 
@@ -135,12 +135,21 @@ Random Forest lebih cocok untuk dataset kecil karena robust dan tidak memerlukan
 ---
 
 # 8. 🔮 Future Work
-- [ ] Tambah data  
-- [ ] Tuning model  
-- [ ] Coba arsitektur DL lain  
-- [ ] Deployment  
-
+- [✅] Tambah data (Sangat direkomendasikan - dataset ideal >1000 samples)  
+- [✅] Feature engineering lanjut (power-to-weight ratio, brand premium score)
+- [✅] Tuning model (Grid Search untuk Random Forest hyperparameters)
+- [✅] Coba arsitektur DL lain (Simpler architecture untuk small data)
+- [✅] Include categorical features (brand, model, fuel-type)
+- [✅] Deployment (API dengan Flask/FastAPI, Web App dengan Streamlit)
 ---
 
 # 9. 🔁 Reproducibility
-Gunakan environment:
+Gunakan environment: Gunakan environment: Python 3.10+
+
+pandas
+numpy
+matplotlib
+scikit-learn
+tensorflow
+warnings
+joblib
